@@ -16,3 +16,13 @@ body {
 }
 
 /* add the .bigItem class */
+.gridContainer{
+  display: grid;
+  grid-template: repeat(12, 2fr);
+}
+.bigItem {
+  grid-area: 2 / 2 / 4 / 4;
+}
+
+
+
